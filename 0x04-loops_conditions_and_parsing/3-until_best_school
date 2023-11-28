@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A script that displays Best School 10 times
 
-idx = 0
+idx=0
 until [ "$idx" -eq 10 ]; do
 	echo "Best School"
 	((idx++))
