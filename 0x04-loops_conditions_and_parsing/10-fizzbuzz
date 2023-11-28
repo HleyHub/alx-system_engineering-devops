@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A Bash script that displays numbers from 1 to 100
 
-result = 1
+result=1
 while [ "$result" -le 100 ]; do
     if [ $((result % 3)) == 0 ] && [ $((result % 5)) == 0 ]; then
         echo "FizzBuzz"
