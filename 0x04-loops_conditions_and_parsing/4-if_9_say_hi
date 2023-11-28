@@ -2,7 +2,7 @@
 # A script that displays Best School 10 times,but the 9th iteration,
 # displays Best School and Hi on a new line
 
-idx = 1
+idx=1
 while [ "$idx" -le 10 ]; do
     if [ "$idx" -eq 9 ]; then
         echo -e "Best School\nHi"
